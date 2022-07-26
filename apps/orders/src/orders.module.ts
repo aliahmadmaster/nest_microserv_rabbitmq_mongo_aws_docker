@@ -3,7 +3,7 @@ import { ConfigModule } from '@nestjs/config';
 import { OrdersController } from './orders.controller';
 import * as Joi from 'joi';
 import { OrdersService } from './orders.service';
-import { DatabaseModule } from 'libs/common';
+import { DatabaseModule } from '@app/common';
 import { OrdersRepository } from './orders.repository';
 import { MongooseModule } from '@nestjs/mongoose';
 import { Order, OrderSchema } from './schemas/orders.schema';
